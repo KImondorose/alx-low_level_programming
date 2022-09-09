@@ -1,25 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main- This program will Write a program that prints
- * the alphabet in lowercase,
- * followed by a new line using the putchar function
- * Return: 0 (success)
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char x;
+	int ch;
 
-	for (int x = 'a'; x <= 'z'; x++)
-
-		putchar(x);
-
-	for(int x = 'A'; x <= 'Z'; x++)
-
-		putchar(x);
-
-		putchar('\n');
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
 	return (0);
 }
