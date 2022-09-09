@@ -11,12 +11,11 @@ int main(void)
 {
 	int dig;
 
-	for (dig =0; dig <10; dig++ )
+	for (dig = 0; dig < 10; dig++)
 	{
 		printf("%d", dig);
-    	}	
-    	putchar('\n');
-
-        return (0);
+	}	
+	putchar('\n');
+	return (0);
 }
 
