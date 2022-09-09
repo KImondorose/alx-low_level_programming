@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	int x;
-	for(int x = 'A'; x <= 'z'; x++) // Notice (x <= 'Z') > > (x <= 'z')
 	
+	for(int x = 'A'; x <= 'z'; x++)
+	{
 		x = tolower(x);
 		putchar(x);
-	
+	}
 		putchar('\n');
 	return (0);
 }
