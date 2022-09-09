@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Main- This program will Write a program that prints
+ * main- This program will Write a program that prints
  * the alphabet in lowercase,
  * followed by a new line using the putchar function
  * Return: 0 (success)
