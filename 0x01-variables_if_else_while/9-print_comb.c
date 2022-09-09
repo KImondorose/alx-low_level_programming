@@ -3,7 +3,9 @@
 
 
 /**
- * main-Write a program that prints all possible combinations of single-digit numbers.  * Return: 0 (success)
+ * main- Write a program that prints all possible
+ * combinations of single-digit numbers
+ * Return: 0 (success)
  */
 
 int main(void)
@@ -13,7 +15,7 @@ int main(void)
 	for (d = '0'; d <= '9'; d++)
 	{
 		putchar(d);
-		if (d !='9')
+		if (d != '9')
 		{
 			putchar(',');
 			putchar(' ');
