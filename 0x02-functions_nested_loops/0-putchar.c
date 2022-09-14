@@ -2,17 +2,21 @@
 #include "main.h"
 
 /**
- * print_alphabet- print the alphabet in lowercase followed by a new line
- * Return: nothing
+ * main- prints _putchar followed by a new line
+ * Return: 0 (success)
+ *
  */
 
-void print_alphabet(void)
+int main (void)
 {
-	int i;
-
-	for (i = 97; i <= 122; i++)
-    {
-        putchar(i);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 	putchar('\n');
-    }
+	return (0);
 }
