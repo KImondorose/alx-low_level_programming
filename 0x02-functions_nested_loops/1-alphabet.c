@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-void print_alphabet(void);
+void print_alphabet(int);
 {
 	int i;
-	
+
 	for (i = 97; i <= 122; i++)
 	{
 		putchar(i);
