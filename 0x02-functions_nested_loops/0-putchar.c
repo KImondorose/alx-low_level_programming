@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-void print_alphabet(int);
+int print_alphabet(void);
 {
 	int i;
 
