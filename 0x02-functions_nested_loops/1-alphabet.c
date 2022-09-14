@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-void print_alphabet(void);
+char print_alphabet(void);
 {
 	int i;
 
@@ -17,4 +17,6 @@ void print_alphabet(void);
 	}
 }
 	putchar('\n');
+    return(0);
 }
+
