@@ -11,10 +11,10 @@ int _isupper(int c)
 
 	c = 65;
 	if (isupper(c))
-	{       
+	{
 		_putchar(49);
 	}
-	else 
+	else
 		_putchar(48);
 	return (0);
 }
