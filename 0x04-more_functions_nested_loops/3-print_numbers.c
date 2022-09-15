@@ -1,20 +1,20 @@
 #include "main.h"
 
-/** 
- * Write a function that prints the numbers, 
- * from 0 to 9, followed by a new line.
- * Prototype: void print_numbers(void);
- * ou can only use _putchar twice in your code
+/**
+ * print_numbers - Prints the number zero to nine
+ *
+ * Return: Always 0 (Success)
  */
 
 void print_numbers(void)
 {
-    int a;
 
-    for (a = '0'; a<= '9'; a++)
-    {
-        _putchar(a);
-    }
-    _putchar('\n');
-    return(0);
-}
+int i;
+
+i  = 0;
+
+for (i = 0; i < 10; i++)
+
+_putchar(i + '0');
+
+_putchar ('\n');
